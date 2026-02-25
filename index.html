@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <title>Tasteology by JoyG</title>
-    <meta name="description" content="Discover the science behind cooking and molecular gastronomy and experience a modern dark-themed food colour showcase featuring red, green, and white flavours.">
-    <meta name="keywords" content="what does cooking mean, molecular gastronomy, perfect egg temperature, 67 degree egg, food science website, food colour psychology, red green white foods, modern food website design, dark theme food layout, cooking experiments">
+    <meta name="description"
+        content="Discover the science behind cooking and molecular gastronomy and experience a modern dark-themed food colour showcase featuring red, green, and white flavours.">
+    <meta name="keywords"
+        content="what does cooking mean, molecular gastronomy, perfect egg temperature, 67 degree egg, food science website, food colour psychology, red green white foods, modern food website design, dark theme food layout, cooking experiments">
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -15,49 +16,61 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 
     <!-- Favicon -->
     <link href="assets/img/favicon1.png" rel="icon">
 </head>
 
 <body>
+    <main>
 
-    <!-- First section - What Does Cooking Mean? -->
-    <section class="firstSection-container">
-        <div class="leftCol">
-            <img src="assets/img/first-section/left.png" alt="Boiling" class="gallery-img">
-        </div>
-        <div class="middleCol">
-            <img src="assets/img/first-section/right-top.png" alt="Arranging" class="gallery-img">
-            <img src="assets/img/first-section/right-bottom.png" alt="Eggs" class="gallery-img">
-        </div>
-        <!-- Image Modal -->
-        <div class="lightbox" id="lightbox">
-            <span class="close">&times;</span>
-            <!-- Image Placeholder once clicked -->
-            <img class="lightbox-img" id="lightbox-img">
-        </div>
-        <div class="rightCol">
-            <h1 class="section-title1">What Does Cooking Mean?</h1>
-            <p>
-                Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create flavour and make food more appealing? This is just part of what Hervé This, the father of molecular gastronomy, has dedicated his life to finding
-                out. We spoke to him to find out what his experiments have told him. And in the process even discovered the secret to cooking the perfect egg...
-            </p>
+        <!-- First section - What Does Cooking Mean? -->
+        <section class="firstSection-container">
+            <div class="leftCol">
+                <img src="assets/img/first-section/left.png" alt="Boiling in water" class="gallery-img">
+            </div>
+            <div class="middleCol">
+                <img src="assets/img/first-section/right-top.png" alt="Arranging the ingredients" class="gallery-img">
+                <img src="assets/img/first-section/right-bottom.png" alt="Eggs in a tray" class="gallery-img">
+            </div>
+            <!-- Image Modal -->
+            <div class="lightbox" id="lightbox" role="dialog" aria-hidden="true">
+                <!-- Close button -->
+                <span class="close" aria-label="Close" role="button">&times;</span>
+                <!-- Image Placeholder once clicked -->
+                <img class="lightbox-img" id="lightbox-img">
+            </div>
+            <div class="rightCol">
+                <!-- Section Title -->
+                <h1 class="section-title1">What Does Cooking Mean?</h1>
+                <!-- Text Content -->
+                <p>
+                    Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to
+                    create flavour and make food more appealing? This is just part of what Hervé This, the father of
+                    molecular gastronomy, has dedicated his life to finding
+                    out. We spoke to him to find out what his experiments have told him. And in the process even
+                    discovered
+                    the secret to cooking the perfect egg...
+                </p>
 
-            <span class="redText">THE PERFECT EGG</span>
+                <span class="redText">THE PERFECT EGG</span>
 
-            <h3>Keep water between 67 and 68°C<br>
-                for a flavourful, tender yolk</h3>
-        </div>
-    </section>
-    <!--  End of .firstSection-container -->
+                <h3>Keep water between 67 and 68°C<br>
+                    for a flavourful, tender yolk</h3>
+            </div>
+        </section>
+        <!--  End of .firstSection-container -->
 
-    <!-- Second section - Taste the Colours -->
-    <section class="secondSection-container">
-        <h1 class="text-center section-title2">Taste the Colours</h1>
-                <div class="card-container">
-                    <div class="card">
+        <!-- Second section - Taste the Colours -->
+        <section class="secondSection-container">
+            <!-- Section Title -->
+            <h2 class="text-center section-title2">Taste the Colours</h2>
+            <!-- Start of Cards -->
+            <div class="card-container">
+                <div class="card">
+                    <a href="red.html" class="card-link">
                         <img src="assets/img/second-section/red.png" alt="Red">
                         <div class="card-content">
                             <h3>RED</h3>
@@ -66,9 +79,11 @@
                                 so we anticipate a sweet taste.
                             </p>
                         </div>
-                    </div>
+                    </a>
+                </div>
 
-                    <div class="card">
+                <div class="card">
+                    <a href="green.html" class="card-link">
                         <img src="assets/img/second-section/green.png" alt="Green">
                         <div class="card-content">
                             <h3>Green</h3>
@@ -77,9 +92,11 @@
                                 promising sour or acid flavours.
                             </p>
                         </div>
-                    </div>
+                    </a>
+                </div>
 
-                    <div class="card">
+                <div class="card">
+                    <a href="white.html" class="card-link">
                         <img src="assets/img/second-section/white.png" alt="White">
                         <div class="card-content">
                             <h3>White</h3>
@@ -88,10 +105,14 @@
                                 driving the expectation of a savoury treat.
                             </p>
                         </div>
-                    </div>
+                    </a>
                 </div>
-    </section>
-    <!--  End of .secondSection-container -->
+
+            </div>
+            <!-- End of Cards -->
+        </section>
+        <!--  End of .secondSection-container -->
+    </main>
 
     <!--JS-Script File -->
     <script src="assets/js/script.js"></script>
