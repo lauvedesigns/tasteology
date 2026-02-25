@@ -220,6 +220,55 @@ body {
   opacity: 1;
 }
 
+/* Card Link */
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.card-link:focus {
+  outline: 2px solid var(--highlight-color);
+}
+
+/* ========================= INNER PAGE ========================= */
+
+.single-inner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 equal columns */
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem 10%;
+    min-height: 100vh;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.single-inner-container .content p {
+    line-height: 30px;
+    font-size: var(--font-size-21);
+    font-weight: var(--font-weight-light);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: var(--font-weight-bold);
+}
+
+.back-link:hover {
+    text-decoration: none;
+    color: var(--highlight-color)
+}
+
+
 /* ========================= MEDIA FOR RESPONSIVE ========================= */
 
 /* Tablet */
