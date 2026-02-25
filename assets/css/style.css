@@ -339,4 +339,11 @@ body {
     gap: 10px;
   }
 
+  /* For the color inner pages content */
+  .single-inner-container {
+    grid-template-columns: 1fr;
+    /* stack on mobile */
+    text-align: center;
+  }
+
 }
