@@ -23,6 +23,9 @@ This project was created as part of a technical assessment. It demonstrates resp
 ```text
 /tasteology-jcdg
 ├── index.html
+├── green.html
+├── red.html
+├── white.html
 ├── README.md
 └── assets/
     ├── css/
