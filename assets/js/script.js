@@ -45,15 +45,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Add one click listener to the whole card container
-document.querySelector('.card-container')
-  .addEventListener('click', function (e) {
+const cardContainer = document.querySelector('.card-container');
+// Check if card container class exist
+if (cardContainer) {
+  cardContainer.addEventListener('click', function (e) {
 
-    // Check if the thing clicked is a link 
     const link = e.target.closest('a');
 
     // If the user didn’t click, stop the code
     if (!link) return;
 
-    // Show the link’s URL in the console (for testing or tracking)
+    // Show the link’s URL in the console
     console.log("Card clicked:", link.href);
-});
+  });
+}
